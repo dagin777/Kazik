@@ -19,7 +19,7 @@
 
   * { box-sizing: border-box; margin: 0; padding: 0; }
 
-  body {
+<body> {
     background: var(--bg);
     font-family: 'Rajdhani', sans-serif;
     color: var(--text);
@@ -31,9 +31,9 @@
     overflow-x: hidden;
     position: relative;
     padding: 16px;
-  }
+  } </body>
 
-  body::before {
+  <body>::before {
     content: '';
     position: fixed;
     inset: 0;
@@ -43,7 +43,7 @@
       radial-gradient(ellipse at 50% 100%, rgba(0,229,255,0.05) 0%, transparent 50%);
     pointer-events: none;
     z-index: 0;
-  }
+  }</body>
 
   .stars {
     position: fixed;
